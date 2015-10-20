@@ -1,9 +1,7 @@
 #valivore
 
 [![Build Status](https://travis-ci.org/travishorn/valivore.svg?branch=master)](https://travis-ci.org/travishorn/valivore)
-
 [![Code Climate](https://codeclimate.com/github/travishorn/valivore/badges/gpa.svg)](https://codeclimate.com/github/travishorn/valivore)
-
 [![Test Coverage](https://codeclimate.com/github/travishorn/valivore/badges/coverage.svg)](https://codeclimate.com/github/travishorn/valivore/coverage)
 
 > Isomorphic form validation. Write rules once, validate on the client and server.
