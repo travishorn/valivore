@@ -1,0 +1,34 @@
+{
+  "name": "valivore",
+  "version": "1.0.0",
+  "description": "Isomorphic form validation. Write rules once, validate on the client and server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/travishorn/valivore.git"
+  },
+  "keywords": [
+    "isomorphic",
+    "form",
+    "validate",
+    "validation"
+  ],
+  "author": "Travis Horn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/valivore/issues"
+  },
+  "homepage": "https://github.com/travishorn/valivore",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-jscs": "^3.0.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "jshint-stylish": "^2.0.1",
+    "should": "^7.1.1"
+  }
+}
