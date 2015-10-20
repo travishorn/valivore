@@ -3,3 +3,8 @@ node_js:
   - "0.10"
 before_script:
   - npm install -g gulp
+after_script:
+  - codeclimate-test-reporter < coverage/lcov.info
+addons:
+    code_climate:
+        repo_token: 045aea859e723a498326f2961cff69126d785d69e888fa869ce4bebfbb0f6143
