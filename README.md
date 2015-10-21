@@ -62,6 +62,44 @@ jscs, and mocha. Code coverage is checked to be at least 90% by istanbul.
 
     npm test
 
+##Contributing
+
+###Setup
+
+1. **Fork the project.** Click the **Fork** above.
+2. **Clone your project.** At a terminal, run
+`git clone https://github.com/username/valivore.git` where *username* is your
+GitHub username.
+3. **Add this project as a remote.** `cd valivore && git remote add upstream
+https://github.com/travishorn/valivore.git`
+
+###Working on code locally
+
+1. **Pull latest version.** `git pull upstream master`
+2. **Check out a new branch.** `git checkout -b branch-name` where *branch-name*
+is a descriptive name to indicate what you'll be working on
+3. **Write tests.** All tests are described in the `tests` directory. Add tests
+to the appropriate file, or create a new test file if necessary.
+3. **Make your changes.**
+4. **Make sure all tests are passing.** `npm test`
+5. **Stage files for tracking.** `git add filename` where *filename* is the name
+of a file you've added or changed. Repeat for all changed/added files.
+6. **Commit changes.** `git commit -m "Brief description of changes."`
+
+###Pushing changes online & requesting a pull
+
+1. **Push branch to GitHub.** `git push origin -u branch-name` where
+*branch-name* is the name of the branch you've been working on.
+2. **Send pull request.** Visit your forked project on GitHub, select your
+branch, click the **Compare & pull request** button
+
+The pull request will not be accepted unless all tests pass:
+
+- jshint using [airbnb's standards](https://github.com/airbnb/javascript/blob/master/linters/jshintrc)
+- jscs using [airbnb's standards](https://github.com/jscs-dev/node-jscs/blob/master/presets/airbnb.json)
+- mocha (make sure you added tests to cover the code you wrote)
+- istanbul (coverage must not fall below 90%)
+
 ##License
 
 The MIT License (MIT)
