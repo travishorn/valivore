@@ -6,6 +6,10 @@
 
 > Isomorphic form validation. Write rules once, validate on the client and server.
 
+## WARNING
+
+Valivore is in extremely early development. It is not ready for use in any capacity.
+
 ##Installation
 
 npm support will be available once the module is further along in development.
